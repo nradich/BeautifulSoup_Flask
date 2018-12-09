@@ -10,7 +10,7 @@
 <body>
     <div class="container-fluid">
         <div class="jumbotron text-center">
-          <h1>Visit Mars</h1>
+          <h1>Mission to Mars</h1>
           <p>Some general information about our planetary neighbor!</p>
           <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Learn About Mars!</a></p>
         </div>
@@ -33,6 +33,54 @@
        <img src="{{mars.hemisphere_images[1].img_url}}">
        <img src="{{mars.hemisphere_images[2].img_url}}">
        <img src="{{mars.hemisphere_images[3].img_url}}">
+
+
+       <!-- The 4 photos -->
+       <div class="row">
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <img src="{{mars.hemisphere_images[0].img_url}}">
+            <div class="card-body">
+              <h4 class="card-title">
+                <p> {{mars.hemisphere_images[0].title}}</p>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Two</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <img src="{{mars.hemisphere_images[1].img_url}}">
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Three</a>
+              </h4>
+              <p> {{mars.hemisphere_images[1].title}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Four</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
+            </div>
+          </div>
+        </div>
 
     </body>
 </html>
