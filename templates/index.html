@@ -22,6 +22,17 @@
             </div>
        </div> 
 
+        <img src="{{mars.featured_image}}">
+
+
        <!-- need help navigating the dictionary for the images  -->
-</body>
+       
+       <p> {{mars.mars_info|safe}}</p>
+
+       <img src="{{mars.hemisphere_images[0].img_url}}">
+       <img src="{{mars.hemisphere_images[1].img_url}}">
+       <img src="{{mars.hemisphere_images[2].img_url}}">
+       <img src="{{mars.hemisphere_images[3].img_url}}">
+
+    </body>
 </html>

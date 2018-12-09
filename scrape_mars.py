@@ -34,7 +34,7 @@ def scrape():
 
 
     #JPL Mars Space image
-    featured_image= 'www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA19964-1920x1200.jpg'
+    featured_image= "https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA19964-1920x1200.jpg"
 
 
     #Mars Weather
