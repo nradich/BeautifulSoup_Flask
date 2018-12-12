@@ -16,14 +16,6 @@ app.config["MONGO_URI"] = "mongodb://localhost:27017/scrape_mars_db"
 mongo = PyMongo(app)
 
 
-# connect to mongo db and collection
-#db = client.scrape_mars_db
-
-#everything works except the database connection
-
-# Drops collection if available to remove duplicates
-#db.mars_info.drop()
-
 # Route to render index.html template using data from Mongo
 @app.route("/")
 def home():
